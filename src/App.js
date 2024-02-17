@@ -1,13 +1,11 @@
-import './App.css';
-import imgs from './images/a.jpg'
-
+import First from './First.jsx'
+import Header from './Header.jsx'
 function App() {
   return (
-    <div className="first">
-      <img className="images1" src={imgs} alt="Reactssjs"/>
-      <h2>Hello this an images of landscapes and this complete tree
-      </h2>
-    </div>
+    <>
+    <Header/>
+   <First/>
+   </>
   );
 }
 
