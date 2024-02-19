@@ -6,5 +6,6 @@ function Students(props){
             <p>Student:{props.isStudents? "Yes":"No"}</p>
         </div>
     );
+    //props-> means property that used for key value pair
 }
 export default Students;
