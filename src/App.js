@@ -1,10 +1,10 @@
 // import Students from "./Students.jsx";
-import Greeting from "./Greeting";
+// import Greeting from "./Greeting";
+import List from "./List";
 function App() {
   return (
     <>
-      <Greeting isLoggedIn={false} username="Pawan" />
-      {/* <Greeting /> */}
+    <List/>
     </>
   );
 }
@@ -12,6 +12,8 @@ function App() {
 export default App;
 
 {
+  {/* <Greeting isLoggedIn={false} username="Pawan" />
+  <Greeting /> */}
   /* <Students Name="David" Age={25} isStudents={true}/>
   <Students Name="Abc" Age={42} isStudents={false}/>
   <Students Name="Rohan" Age={52} isStudents={true}/>
