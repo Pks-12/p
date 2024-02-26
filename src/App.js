@@ -1,18 +1,21 @@
 // import Students from "./Students.jsx";
 // import Greeting from "./Greeting";
 // import List from "./List";
-import Click from "./Click";
+// import Click from "./Click";
+// import Counter from "./Counter.jsx";
+import Counter1 from "./Counter1";
 function App() {
   return (
-    <>
-    <Click/>
-    </>
-  );
-}
-
-export default App;
-
-{
+    <Counter1 />
+    );
+  }
+  
+  export default App;
+  
+  {
+  // <>
+  // <Click/>
+  // </>
   {/* <List/> */}
   {/* <Greeting isLoggedIn={false} username="Pawan" />
   <Greeting /> */}
