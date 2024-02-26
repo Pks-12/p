@@ -1,3 +1,6 @@
+//hooks-> allows you to use state and other React features without writing a class
+//usestate->A react hook that allows the creation of a stateful varible AND a setter function to update its value in the virtualiztion"
+
 import React, { useState } from 'react';
 
 
@@ -21,7 +24,7 @@ function Counter1(){
             <button className="counter-button" onClick={decrement}>Decrement</button>
 
             <button className="counter-button" onClick={reset}>Reset</button>
-            
+
             <button className="counter-button" onClick={increment}>Increment</button>
 
         </div>
