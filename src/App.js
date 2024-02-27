@@ -3,7 +3,8 @@
 // import List from "./List";
 // import Click from "./Click";
 // import Counter from "./Counter.jsx";
-import Counter1 from "./Counter1";
+// import Counter1 from "./Counter1";
+import MyComponent from "./MyComponent.jsx";
 function App() {
   return (
     <Counter1 />
