@@ -7,7 +7,7 @@
 import MyComponent from "./MyComponent.jsx";
 function App() {
   return (
-    <Counter1 />
+    <MyComponent />
     );
   }
   
