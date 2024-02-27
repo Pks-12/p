@@ -1,3 +1,6 @@
+//onChange->Event handler used for the primarily with form element
+//eg-> <input>,<radio>,<textarea>,<select>
+//Trigger a function every time the value of input change.
 import React, { useState } from "react";
 
 function MyComponent() {
@@ -62,6 +65,3 @@ function MyComponent() {
 }
 
 export default MyComponent
-//onChange->Event handler used for the primarily with form element
-//eg-> <input>,<radio>,<textarea>,<select>
-//Trigger a function every time the value of input change.
